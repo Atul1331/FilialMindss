@@ -1,9 +1,9 @@
 import { Box, Stack, Typography } from "@mui/material";
 import React from "react";
-import thumbnail from "../../assets/thumbnail.webp";
+import thumbnail from "../assets/thumbnail.webp";
 import AudioPlayer from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css";
-import story from "../../assets/audio.mp3";
+import story from "../assets/audio.mp3";
 
 export default function Stories() {
   return (

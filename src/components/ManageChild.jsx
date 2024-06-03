@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import { IoMdAdd } from "react-icons/io";
 import child1 from "../assets/childProfile1.jpg";
 import doctor from "../assets/doctor.jpg";
@@ -29,11 +30,13 @@ const ManageChild = () => {
         ))}
 
         <div>
+          <Link to="/child-info">
           <IoMdAdd
             className="block cursor-pointer"
             style={{ width: "128px", height: "128px", color: "gray" }}
           />
-          <p className="text-2xl text-center">Atul</p>
+          </ Link>
+          <p className="text-2xl text-center">Add Child</p>
         </div>
       </div>
     </div>

@@ -16,6 +16,7 @@ export default function Navbar() {
       >
         <img src={logo} alt="" style={{ height: "40px" }} />
         <Stack direction="row" alignItems="center" gap={1}>
+          <Link to="/">
           <Box
             sx={{
               padding: "4px 8px",
@@ -28,6 +29,9 @@ export default function Navbar() {
               Home
             </Typography>
           </Box>
+          </Link>
+          
+          <Link to="/parent-dashboard">
           <Box
             sx={{
               padding: "4px 8px",
@@ -37,9 +41,11 @@ export default function Navbar() {
             }}
           >
             <Typography variant="body1" sx={{ fontSize: "12px !important" }}>
-              About
+              Dashboard
             </Typography>
           </Box>
+          </ Link>
+          <Link to="/games">
           <Box
             sx={{
               padding: "4px 8px",
@@ -52,6 +58,7 @@ export default function Navbar() {
               Contact us
             </Typography>
           </Box>
+          </ Link>
         </Stack>
         <Stack direction="row" alignItems="center" gap={3}>
           <Link to="/login">

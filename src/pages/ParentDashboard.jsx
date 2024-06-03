@@ -1,14 +1,13 @@
 import React from "react";
-import ManageChild from "../components/ManageChild";
-import ChildComponent from "../components/ChildComponent";
-import ParentHero from "../components/ParentHero";
+
+import ParentLeft from '../components/parentdashboard/ParentLeft'
+import ParentRight from '../components/parentdashboard/ParentRight'
 
 const ParentDashboard = () => {
   return (
-    <div className="max-w-[1500px] mx-auto">
-      <ParentHero />
-      <ManageChild />
-      <ChildComponent />
+    <div className="font-mono flex">
+      <ParentLeft />
+      <ParentRight />
     </div>
   );
 };

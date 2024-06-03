@@ -1,4 +1,6 @@
+// import { Link } from '@mui/material'
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 
 const data = [
@@ -18,6 +20,9 @@ const ParentHero = () => {
   return (
     <div>
       <p className='text-5xl pt-8 font-semibold '>Welcome Atul's Father</p>
+      <Link to="/child-dashboard"> <p>Child Dashboard</p> </Link>
+      <Link to="/parent-child"> <p>Parent Child Relationship</p> </Link>
+      
             <div className=" flex gap-32 pt-12 pb-16">
                 {data.map((item) => (
                     <div className="p-5 rounded-xl bg-[#664dd4] text-white" key={item.key}>

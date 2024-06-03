@@ -7,12 +7,14 @@ import Homepage from "./pages/homepage";
 import Navbar from "./components/navbar";
 import { Typography } from "@mui/material";
 import Footer from "./components/footer/footer";
-import Stories from "./components/stories/stories";
+import Stories from "./pages/stories";
 import ChildDashboard from "./pages/ChildDashboard";
 import Games from "./pages/Games";
 import ParentChild from "./pages/ParentChild";
 import ParentDashboard from "./pages/ParentDashboard";
 import GamesSec from "./pages/gamesSec";
+import ChildInfo from "./components/ChildInfo"
+import ChildSkill from "./components/ChildSkill"
 // import Activity from "./pages/Activity";
 // import ActivityHome from "./pages/ActivityHome";
 // import ChildForm from "./pages/ChildForm";
@@ -30,6 +32,9 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/child-dashboard" element={<ChildDashboard />} />
+        <Route path="/stories" element={<Stories />} />
+        <Route path="/child-info" element={<ChildInfo />} />
+        <Route path="/child-skill" element={<ChildSkill />} />
         <Route path="/parent-child" element={<ParentChild />} />
         <Route path="/parent-dashboard" element={<ParentDashboard />} />
         <Route path="/games" element={<Games />} />
