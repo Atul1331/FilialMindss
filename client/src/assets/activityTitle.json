@@ -1,0 +1,49 @@
+{
+  "active": [
+    {
+      "title": "Alien World",
+      "img": "/activity/activityThumbnails/alienWorld.webp",
+      "link": "/activity/activities/alienWorld"
+    },
+    {
+      "title": "Chess Mania",
+      "img": "/activity/activityThumbnails/chessMania.webp",
+      "link": "/activity/activities/chessMania"
+    },
+    {
+      "title": "Color Sort",
+      "img": "/activity/activityThumbnails/colorSort.webp",
+      "link": "/activity/activities/colorSort"
+    },
+    {
+      "title": "Craft a Geo",
+      "img": "/activity/activityThumbnails/craftAGeo.webp",
+      "link": "/activity/activities/craftAGeo"
+    },
+    {
+      "title": "Guess the Object",
+      "img": "/activity/activityThumbnails/guessTheObject.webp",
+      "link": "/activity/activities/guessTheObject"
+    },
+    {
+      "title": "Labeling the Cups",
+      "img": "/activity/activityThumbnails/labellingTheCups.webp",
+      "link": "/activity/activities/labellingTheCups"
+    },
+    {
+      "title": "What's on the tray?",
+      "img": "/activity/activityThumbnails/what'sOnTheTray.webp",
+      "link": "/activity/activities/whatIsOnTheTray"
+    },
+    {
+      "title": "Narrate a Fairy Tale",
+      "img": "/activity/activityThumbnails/fairyTale.webp",
+      "link": "/activity/activities/narrateAFairyTale"
+    },
+    {
+      "title": "Create a Nature Collage",
+      "img": "/activity/activityThumbnails/natureCollage.webp",
+      "link": "/activity/activities/createANatureCollage"
+    }
+  ]
+}

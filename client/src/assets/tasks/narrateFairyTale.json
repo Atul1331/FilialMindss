@@ -1,0 +1,24 @@
+{
+  "title": "Narrate a Fairy Tale",
+  "desc": "Get creative and narrate your favorite fairy tale with a twist! Create a new storyline or reimagine the ending. Express your imagination and storytelling skills. Once done, upload the audio file of your narrated fairy tale with a twist.",
+  "content": [
+    {
+      "type": "audio",
+      "id": "Question 1",
+      "desc": "Narrate a fairy tale with a twist",
+      "img": "/activity/high-school-concept-illustration.png"
+    },
+    {
+      "type": "textbox",
+      "id": "Question 2",
+      "desc": "How did your child come up with the new storyline or ending?",
+      "img": "/activity/high-school-concept-illustration.png"
+    },
+    {
+      "type": "textbox",
+      "id": "Question 3",
+      "desc": "Did your child enjoy the process of adding a twist to the fairy tale?",
+      "img": "/activity/high-school-concept-illustration.png"
+    }
+  ]
+}

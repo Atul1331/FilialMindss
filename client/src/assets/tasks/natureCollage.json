@@ -1,0 +1,24 @@
+{
+  "title": "Create a Nature Collage",
+  "desc": "Gather leaves, pebbles, and small sticks from the outdoors. Glue them onto a piece of cardboard or stiff paper. (You can repurpose cereal and cracker boxes for this purpose.",
+  "content": [
+    {
+      "type": "img",
+      "id": "Question 1",
+      "desc": "Upload a photo of your nature collage",
+      "img": "/activity/high-school-concept-illustration.png"
+    },
+    {
+      "type": "time",
+      "id": "Question 2",
+      "desc": "How much time did your child take to do this?",
+      "img": "/activity/high-school-concept-illustration.png"
+    },
+    {
+      "type": "rate",
+      "id": "Question 3",
+      "desc": "Rate your experience",
+      "img": "/activity/high-school-concept-illustration.png"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "title": "Craft a Geo",
+  "desc": "Hand over some playdough to your child and challenge them to craft various geometric shapes. Encourage combining shapes to create more complex structures or objects.",
+  "content": [
+    {
+      "type": "img",
+      "id": "Question 1",
+      "desc": "Upload an image of your child's playdough creations",
+      "img": "/activity/high-school-concept-illustration.png"
+    },
+    {
+      "type": "textbox",
+      "id": "Question 2",
+      "desc": "How did your child approach crafting various geometric shapes with playdough?",
+      "img": "/activity/high-school-concept-illustration.png"
+    },
+    {
+      "type": "mcq",
+      "id": "Question 3",
+      "desc": "Did your child combine shapes to create more complex structures or objects?",
+      "opt": [
+        { "no": "A", "opt": "Yes" },
+        { "no": "B", "opt": "No" },
+        { "no": "C", "opt": "Sometimes" }
+      ],
+      "img": "/activity/high-school-concept-illustration.png"
+    },
+    {
+      "type": "rate",
+      "id": "Question 4",
+      "desc": "Rate your experience",
+      "img": "/activity/high-school-concept-illustration.png"
+    },
+    {
+      "type": "mcq",
+      "id": "Question 5",
+      "desc": "Did your child express any challenges or joys while working with playdough?",
+      "opt": [
+        { "no": "A", "opt": "Yes" },
+        { "no": "B", "opt": "No" },
+        { "no": "C", "opt": "Sometimes" }
+      ],
+      "img": "/activity/high-school-concept-illustration.png"
+    }
+  ]
+}
