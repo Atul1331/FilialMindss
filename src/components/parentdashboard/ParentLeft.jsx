@@ -13,6 +13,7 @@ function ParentLeft() {
 
       {/* Children Details */}
       <div className='flex justify-between'>
+        <Link to='/child-dashboard'>
         <div className='bg-blue-200 p-5 rounded-lg my-5'>
             <div className='flex gap-10'>
                 <div>
@@ -44,6 +45,7 @@ function ParentLeft() {
                 <button className='px-3 py-1 bg-blue-600 text-white  rounded-3xl'>View Details</button>
             </div>
         </div>
+        </Link>
 
         <div className='bg-purple-200 p-5 rounded-lg my-5'>
             <div className='flex gap-10'>
@@ -51,18 +53,18 @@ function ParentLeft() {
                     <img src={child2} alt="" className='h-16 w-16 object-cover rounded-xl' />
                 </div>
                 <div>
-                    <p className='text-lg'>Aryan Raj</p>
-                    <p>6 years 8 months</p>
+                    <p className='text-lg'>Rishi Kapoor</p>
+                    <p>5 years 4 months</p>
                 </div>
             </div>
             <div className='flex gap-14 my-5'>
                 <div className='max-w-[60px] text-center'>
-                    <p className='font-semibold text-lg '>12</p>
+                    <p className='font-semibold text-lg '>13</p>
                     <p className='leading-4'>Tasks Done</p>
                 </div>
 
                 <div className='max-w-[60px] text-center'>
-                    <p className='font-semibold text-lg '>5</p>
+                    <p className='font-semibold text-lg '>7</p>
                     <p className='leading-4'>Games Played</p>
                 </div>
 
@@ -83,23 +85,23 @@ function ParentLeft() {
                     <img src={child3} alt="" className='h-16 w-16 object-cover rounded-xl' />
                 </div>
                 <div>
-                    <p className='text-lg'>Aryan Raj</p>
-                    <p>6 years 8 months</p>
+                    <p className='text-lg'>Shivam Kumar</p>
+                    <p>6 years 3 months</p>
                 </div>
             </div>
             <div className='flex gap-14 my-5'>
                 <div className='max-w-[60px] text-center'>
-                    <p className='font-semibold text-lg '>12</p>
+                    <p className='font-semibold text-lg '>7</p>
                     <p className='leading-4'>Tasks Done</p>
                 </div>
 
                 <div className='max-w-[60px] text-center'>
-                    <p className='font-semibold text-lg '>5</p>
+                    <p className='font-semibold text-lg '>2</p>
                     <p className='leading-4'>Games Played</p>
                 </div>
 
                 <div className='max-w-[60px] text-center'>
-                    <p className='font-semibold text-lg '>8</p>
+                    <p className='font-semibold text-lg '>3</p>
                     <p className='leading-4'>Stories Listened</p>
                 </div>
             </div>
@@ -129,19 +131,19 @@ function ParentLeft() {
         <div className='bg-gray-100 p-8 rounded-2xl '>
             <p className='font-semibold text-3xl'>Latest Scores</p>
             <div className='flex flex-wrap justify-center gap-3'>
-            <div className='bg-[#fab6b4] rounded-xl p-3 my-4'>
+            <div className='bg-[#f6cccb] rounded-xl p-3 my-4'>
                 <p className='text-[60px] text-red-600 font-medium'>58</p>
-                <p>with Aryan</p>
+                <p className='font-semibold'>with Aryan</p>
             </div>
 
-            <div className='bg-[#fab6b4]  rounded-xl p-3 my-4'>
-                <p>58</p>
-                <p>with Aryan</p>
+            <div className='bg-[#bbd9f8]  rounded-xl p-3 my-4'>
+                <p className='text-[60px] text-blue-600 font-medium'>76</p>
+                <p className='font-semibold'>with Rishi</p>
             </div>
 
-            <div className='bg-[#fab6b4]  rounded-xl p-3 my-4'>
-                <p>58</p>
-                <p>with Aryan</p>
+            <div className='bg-[#f9f5be]  rounded-xl p-3 my-4'>
+                <p className='text-[60px] text-yellow-600 font-medium'>58</p>
+                <p className='font-semibold'>with Shivam</p>
             </div>
             </div>
         </div>

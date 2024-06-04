@@ -57,7 +57,7 @@ function ParentChildRelationship() {
   }
 
   return (
-    <div className='md:w-2/3 mx-auto shadow-xl rounded-2xl pb-2 bg-white'>
+    <div className='md:w-[80%] mx-auto shadow-xl rounded-2xl pb-2 bg-white'>
 
       <div className="container horizontal mt-5">
         <Stepper

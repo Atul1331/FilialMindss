@@ -1,7 +1,6 @@
 import React from 'react'
 
 import { FaPlay } from "react-icons/fa";
-
 import doctor from '../../assets/doctor.jpg'
 import dailytask1 from '../../assets/dailytask1.jpg'
 
@@ -27,17 +26,17 @@ const ChildRight = () => {
         <div className='text-xl font-semibold mt-10 mb-2'>Your Stats</div>
         <div className='w-full px-16 py-8 bg-gray-100 flex gap-16 items-center rounded-lg'>
             <div className='text-center'>
-                <p className='text-6xl font-semibold text-violet-500 mb-2'>13</p>
+                <p className='text-6xl font-semibold text-violet-500 mb-2'>12</p>
                 <p className='font-semibold leading-5'>Activities Done</p>
             </div>
 
             <div className='text-center'>
-                <p className='text-6xl font-semibold text-green-500 mb-2'>4</p>
+                <p className='text-6xl font-semibold text-green-500 mb-2'>5</p>
                 <p className='font-semibold leading-5'>Games Played</p>
             </div>
 
             <div className='text-center'>
-                <p className='text-6xl font-semibold text-yellow-500 mb-2'>7</p>
+                <p className='text-6xl font-semibold text-yellow-500 mb-2'>8</p>
                 <p className='font-semibold leading-5'>Stories Listened</p>
             </div>
         </div>
@@ -147,9 +146,6 @@ const ChildRight = () => {
                 </div>
                 
             </div>
-
-            
-
 
         </div>
 

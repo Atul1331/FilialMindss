@@ -13,7 +13,7 @@ import spiralLight from "../../assets/SpiralLight.png";
 const ChildLeft = () => {
   return (
     <div className='px-10 w-[70%] bg-gray-100'>
-      <div className='text-3xl font-bold'>Hi Atul, Welcome 👋</div>
+      <div className='text-3xl font-bold'>Hi Aryan, Welcome 👋</div>
 
       <div className='bg-red-400 rounded-2xl flex items-center justify-between my-5'>
         <div className='pl-20'>

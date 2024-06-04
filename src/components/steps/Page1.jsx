@@ -14,10 +14,10 @@ const Page1 = () => {
   return (
     <div>
       
-      <div className=" py-6">
+      <div className=" py-4">
                     <div className="q1  ">
-                    <p className="text-2xl">1. I share an affectionate, warm relationship with my child</p>
-                    <div className="options text-2xl flex justify-evenly flex-wrap">
+                    <p className="text-2xl font-semibold">1. I share an affectionate, warm relationship with my child</p>
+                    <div className="options text-xl flex justify-between flex-wrap">
                     
                     <label className={question1 === 1?"block active py-8":"block py-8" } onClick={()=>setScore(score + 1)}> <input type="radio" value="1" name="q1" /> Definitely, doesn't apply</label>
                     <label className={question1 === 2?"block active py-8":"block py-8"}  onClick={()=>setScore(score + 2)}><input type="radio" value="2" name="q1" /> Not really</label>
@@ -27,11 +27,12 @@ const Page1 = () => {
                     </div>
 
                 </div>
+                <hr class="h-px my-2 bg-gray-200 border-0 "></hr>
 
 
                 <div className="q2  ">
-                    <p className="text-2xl">2. My child and I always seem to be struggling with each other</p>
-                    <div className="options text-2xl flex justify-evenly flex-wrap">
+                    <p className="text-2xl font-semibold">2. My child and I always seem to be struggling with each other</p>
+                    <div className="options text-xl flex justify-between flex-wrap">
                     <label className={question2 === 1?"block active py-8":"block py-8"}  onClick={()=>setScore(score + 1)}> <input type="radio" value="1" name="q2" /> Definitely, doesn't apply</label>
                     <label className={question2 === 2?"block active py-8":"block py-8"} onClick={()=>setScore(score + 2)} ><input type="radio" value="2" name="q2"  /> Not really</label>
                     <label className={question2 === 3?"block active py-8":"block py-8"} onClick={()=>setScore(score + 3)}  ><input type="radio" value="3" name="q2"  /> Neutral, not sure</label>
@@ -40,11 +41,12 @@ const Page1 = () => {
                     </div>
 
                 </div>
+                <hr class="h-px my-2 bg-gray-200 border-0 "></hr>
 
 
                 <div className="q3  ">
-                    <p className="text-2xl">3. If upset, my child will seek confort from me</p>
-                    <div className="options text-2xl flex justify-evenly flex-wrap">
+                    <p className="text-2xl font-semibold">3. If upset, my child will seek confort from me</p>
+                    <div className="options text-xl flex justify-between flex-wrap">
                     <label className={question3 === 1?"block active py-8":"block py-8"}  onClick={()=>setScore(score + 1)}> <input type="radio" value="1" name="q3" /> Definitely, doesn't apply</label>
                     <label className={question3 === 2?"block active py-8":"block py-8"} onClick={()=>setScore(score + 2)} ><input type="radio" value="2" name="q3"  /> Not really</label>
                     <label className={question3 === 3?"block active py-8":"block py-8"} onClick={()=>setScore(score + 3)}  ><input type="radio" value="3" name="q3"  /> Neutral, not sure</label>
@@ -53,11 +55,12 @@ const Page1 = () => {
                     </div>
 
                 </div>
+                <hr class="h-px my-2 bg-gray-200 border-0 "></hr>
 
 
                 <div className="q4 ">
-                    <p className="text-2xl">4. My child is uncomfortable with physical attention or touch from me</p>
-                    <div className="options text-2xl flex justify-evenly flex-wrap">
+                    <p className="text-2xl font-semibold">4. My child is uncomfortable with physical attention or touch from me</p>
+                    <div className="options text-xl flex justify-between flex-wrap">
                     <label className={question4 === 1?"block active py-8":"block py-8"}  onClick={()=>setScore(score + 1)}> <input type="radio" value="1" name="q4" /> Definitely, doesn't apply</label>
                     <label className={question4 === 2?"block active py-8":"block py-8"} onClick={()=>setScore(score + 2)} ><input type="radio" value="2" name="q4"  /> Not really</label>
                     <label className={question4 === 3?"block active py-8":"block py-8"} onClick={()=>setScore(score + 3)}  ><input type="radio" value="3" name="q4"  /> Neutral, not sure</label>
@@ -66,8 +69,11 @@ const Page1 = () => {
                     </div>
 
                 </div>
+                <hr class="h-px my-2 bg-gray-200 border-0 "></hr>
                 
                     </div>
+                
+                    
                     
                     
     </div>
