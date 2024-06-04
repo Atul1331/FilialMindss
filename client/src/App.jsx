@@ -15,7 +15,6 @@ import Homepage from './pages/homepage'
 import Login from './pages/login'
 import ParentDashboard from './pages/parent-dashboard'
 import Register from './pages/register'
-import Stories from './pages/stories'
 
 import { Toaster } from 'react-hot-toast'
 
@@ -43,7 +42,6 @@ function App() {
           path="/register"
         />
         {/* <Route element={<ChildDashboard />} path="/child-dashboard" /> */}
-        <Route element={<Stories />} path="/stories" />
         {/* <Route element={<ChildInfo />} path="/child-info" /> */}
         {/* <Route element={<ChildSkill />} path="/child-skill" /> */}
         {/* <Route element={<ParentChild />} path="/parent-child" /> */}
@@ -56,33 +54,6 @@ function App() {
             path={e.link}
           />
         ))}
-        {/* <Route
-          element={<GamesSec cdn="https://cdn.htmlgames.com/Chess/" />}
-          path="/games/chess"
-        />
-        <Route
-          element={<GamesSec cdn="https://cdn.htmlgames.com/Illuminate1/" />}
-          path="/games/illuminate"
-        />
-        <Route
-          element={
-            <GamesSec cdn="https://cdn.htmlgames.com/ChocolateFactory/" />
-          }
-          path="/games/chocolate-factory"
-        />
-        <Route
-          element={<GamesSec cdn="https://cdn.htmlgames.com/FruitCubes/" />}
-          path="/games/fruit-cubes"
-        />
-        <Route
-          element={<GamesSec cdn="https://cdn.htmlgames.com/FlowerBurst/" />}
-          path="/games/flower-burst"
-        /> */}
-
-        {/*------ <Route
-          path="/games/chess"
-          element={<GamesSec cdn="https://cdn.htmlgames.com/Chess/" />}
-        /> */}
         <Route element={<ActivityHome />} path="/activity" />
         {activityTitle.active.map((e) => (
           <Route
