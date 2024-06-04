@@ -6,20 +6,20 @@ import { Container } from "@mui/material";
 const data = [
   {
     key: 1,
-    title: "Question 1 ?",
-    data: `Answer 1.`,
+    title: "What is Filial Minds? How does it work?",
+    data: `Filial Minds is designed to ease and enhance tasks related to child assessments, mental health analysis, and early development.`,
     isOpen: false,
   },
   {
     key: 2,
-    title: "Question 2 ?",
-    data: `Answer 2 `,
+    title: "What is the importance of early childhood learning ?",
+    data: `Early childhood learning refers to the educational and developmental experiences that children undergo during their early years, typically from birth to around 8 years of age. It encompasses a wide range of cognitive, emotional, social, and physical development processes that lay the foundation for future learning and well-being.`,
     isOpen: false,
   },
   {
     key: 3,
-    title: "Question 3 ?",
-    data: `Answer 3 `,
+    title: "Is there someone whom I can talk while proceeding with this ?",
+    data: ` The Joonify platform is designed to be user-friendly and intuitive, guiding both parents and children through the assessment process smoothly. However, if you have any questions or need help navigating the platform, our Talent Advisors are easily available. You can reach out at: +914739470-0408 or email us at: hello@filalminds.com `,
     isOpen: false,
   },
 ];

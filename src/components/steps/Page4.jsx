@@ -1,6 +1,6 @@
 import React, {useState, useContext} from 'react'
 import { StepperContext } from '../../contexts/StepperContext';
-const Page3 = () => {
+const Page4 = () => {
 
   const {score, setScore} = useContext(StepperContext);
   console.log(score);
@@ -19,7 +19,7 @@ const Page3 = () => {
       
       <div className=" py-6">
                     <div className="q1  ">
-                    <p className="text-2xl">9.. My child reacts strongly to separation from me.</p>
+                    <p className="text-2xl">13. My child feels that I treat him/her unfairly.</p>
                     <div className="options text-2xl flex justify-evenly flex-wrap">
                     
                     <label className={question1 === 1?"block active py-8":"block py-8" } onClick={()=>setScore(score+1)}> <input type="radio" value="1" name="q1" /> Definitely, doesn't apply</label>
@@ -33,7 +33,7 @@ const Page3 = () => {
 
 
                 <div className="q2  ">
-                    <p className="text-2xl">10. My child spontaneously shares information about himself/herself.</p>
+                    <p className="text-2xl">14. . My child asks for my help when he/she really does not need help.</p>
                     <div className="options text-2xl flex justify-evenly flex-wrap">
                     <label className={question2 === 1?"block active py-8":"block py-8"}  onClick={()=>setScore(score + 1)}> <input type="radio" value="1" name="q2" /> Definitely, doesn't apply</label>
                     <label className={question2 === 2?"block active py-8":"block py-8"} onClick={()=>setScore(score + 2)} ><input type="radio" value="2" name="q2"  /> Not really</label>
@@ -46,7 +46,7 @@ const Page3 = () => {
 
 
                 <div className="q3  ">
-                    <p className="text-2xl">11. My child is overly dependent on me.</p>
+                    <p className="text-2xl">15. It is easy to be in tune with what my child is feeling.</p>
                     <div className="options text-2xl flex justify-evenly flex-wrap">
                     <label className={question3 === 1?"block active py-8":"block py-8"}  onClick={()=>setScore(score + 1)}> <input type="radio" value="1" name="q3" /> Definitely, doesn't apply</label>
                     <label className={question3 === 2?"block active py-8":"block py-8"} onClick={()=>setScore(score + 2)} ><input type="radio" value="2" name="q3"  /> Not really</label>
@@ -59,7 +59,7 @@ const Page3 = () => {
 
 
                 <div className="q4 ">
-                    <p className="text-2xl">12. My child easily becomes angry at me.</p>
+                    <p className="text-2xl">16. I've noticed my child copying my behavior or ways of doing things. </p>
                     <div className="options text-2xl flex justify-evenly flex-wrap">
                     <label className={question4 === 1?"block active py-8":"block py-8"}  onClick={()=>setScore(score + 1)}> <input type="radio" value="1" name="q4" /> Definitely, doesn't apply</label>
                     <label className={question4 === 2?"block active py-8":"block py-8"} onClick={()=>setScore(score + 2)} ><input type="radio" value="2" name="q4"  /> Not really</label>
@@ -76,4 +76,4 @@ const Page3 = () => {
   )
 }
 
-export default Page3
+export default Page4

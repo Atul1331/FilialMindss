@@ -6,6 +6,9 @@ import StepperControl from "../components/stepperControl/StepperControl"
 import Page1 from "../components/steps/Page1"
 import Page2 from "../components/steps/Page2"
 import Page3 from "../components/steps/Page3"
+import Page4 from "../components/steps/Page4"
+import Page5 from "../components/steps/Page5"
+import Pagelast from "../components/steps/Pagelast"
 
 
 function ParentChildRelationship() {
@@ -20,7 +23,10 @@ function ParentChildRelationship() {
   const steps = [
     "Page 1",
     "Page 2",
-    "Page 3"
+    "Page 3",
+    "Page 4",
+    "Page 5",
+    "Pagelast"
   ];
 
   const displayStep = (step) => {
@@ -31,6 +37,12 @@ function ParentChildRelationship() {
         return <Page2 />
       case 3:
         return <Page3 />
+        case 4:
+          return <Page4 />
+          case 5:
+            return <Page5 />
+            case 6:
+              return <Pagelast />
       default:
     }
   }
