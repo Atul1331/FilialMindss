@@ -1,0 +1,35 @@
+{
+  "title": "Labeling the Cups",
+  "desc": "Task your child with labeling each cup with the corresponding written number. After completion, take note of how many they answered correctly.",
+  "content": [
+    {
+      "type": "number",
+      "id": "Question 1",
+      "desc": "How many cups did your child correctly label with the corresponding written number?",
+      "img": "/activity/high-school-concept-illustration.png"
+    },
+    {
+      "type": "textbox",
+      "id": "Question 2",
+      "desc": "What approach did your child use to label the cups with the correct numbers?",
+      "img": "/activity/high-school-concept-illustration.png"
+    },
+    {
+      "type": "mcq",
+      "id": "Question 3",
+      "desc": "Did your child enjoy the process of labeling the cups?",
+      "opt": [
+        { "no": "A", "opt": "Yes" },
+        { "no": "B", "opt": "No" },
+        { "no": "C", "opt": "Somewhat" }
+      ],
+      "img": "/activity/high-school-concept-illustration.png"
+    },
+    {
+      "type": "textbox",
+      "id": "Question 4",
+      "desc": "Were there any challenges or joys your child expressed during this activity?",
+      "img": "/activity/high-school-concept-illustration.png"
+    }
+  ]
+}

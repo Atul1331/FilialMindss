@@ -1,0 +1,45 @@
+{
+  "title": "Guess the Object",
+  "desc": "Select household items that make distinct sounds, such as a clock, cereal box, metal lid (placed on a pan), and a potato chip bag. Put a blindfold on your child and have them try to guess which object made the sound.",
+  "content": [
+    {
+      "type": "textbox",
+      "id": "Question 1",
+      "desc": "Describe your child's reaction to the 'Mystery Sound' activity.",
+      "img": "/activity/high-school-concept-illustration.png"
+    },
+    {
+      "type": "mcq",
+      "id": "Question 2",
+      "desc": "How well did your child guess the objects based on their sounds?",
+      "opt": [
+        { "no": "A", "opt": "Really Good" },
+        { "no": "B", "opt": "Not Good Enough" },
+        { "no": "C", "opt": "Somewhat Good" }
+      ],
+      "img": "/activity/high-school-concept-illustration.png"
+    },
+    {
+      "type": "mcq",
+      "id": "Question 3",
+      "desc": "Did your child express enjoyment or challenges while playing the 'Mystery Sound' game?",
+      "opt": [
+        { "no": "A", "opt": "Yes" },
+        { "no": "B", "opt": "No" },
+        { "no": "C", "opt": "Sometimes" }
+      ],
+      "img": "/activity/high-school-concept-illustration.png"
+    },
+    {
+      "type": "mcq",
+      "id": "Question 4",
+      "desc": "Were there any specific sounds or objects that particularly intrigued your child?",
+      "opt": [
+        { "no": "A", "opt": "Yes" },
+        { "no": "B", "opt": "No" },
+        { "no": "C", "opt": "Sometimes" }
+      ],
+      "img": "/activity/high-school-concept-illustration.png"
+    }
+  ]
+}

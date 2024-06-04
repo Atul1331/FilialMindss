@@ -1,0 +1,35 @@
+{
+  "title": "Color Sort",
+  "desc": "Present a set of colored objects to your child and encourage them to sort them by color. Once the sorting is complete, snap a photo of the sorted objects and upload it here.",
+  "content": [
+    {
+      "type": "img",
+      "id": "Question 1",
+      "desc": "Upload a photo of the sorted objects by color",
+      "img": "/activity/high-school-concept-illustration.png"
+    },
+    {
+      "type": "time",
+      "id": "Question 2",
+      "desc": "How much time did your child take to complete the color sorting activity?",
+      "img": "/activity/high-school-concept-illustration.png"
+    },
+    {
+      "type": "textbox",
+      "id": "Question 3",
+      "desc": "Did your child enjoy the process of sorting the colored objects?",
+      "img": "/activity/high-school-concept-illustration.png"
+    },
+    {
+      "type": "mcq",
+      "id": "Question 4",
+      "desc": "Did your child show any signs of irritation during or after the activity?",
+      "opt": [
+        { "no": "A", "opt": "Yes" },
+        { "no": "B", "opt": "No" },
+        { "no": "C", "opt": "Sometimes" }
+      ],
+      "img": "/activity/high-school-concept-illustration.png"
+    }
+  ]
+}

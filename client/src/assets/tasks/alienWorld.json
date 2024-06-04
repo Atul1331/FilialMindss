@@ -1,0 +1,29 @@
+{
+  "title": "Alien World",
+  "desc": "Engage in a drawing activity! For example, draw an alien world. Unleash your creativity and showcase your artistic skills.",
+  "content": [
+    {
+      "type": "img",
+      "id": "Question 1",
+      "desc": "Upload your drawing of the alien world",
+      "img": "/activity/high-school-concept-illustration.png"
+    },
+    {
+      "type": "mcq",
+      "id": "Question 2",
+      "desc": "Did your child express enjoyment or challenges while drawing the alien world?",
+      "opt": [
+        { "no": "A", "opt": "Yes" },
+        { "no": "B", "opt": "No" },
+        { "no": "C", "opt": "Somewhat" }
+      ],
+      "img": "/activity/high-school-concept-illustration.png"
+    },
+    {
+      "type": "textbox",
+      "id": "Question 3",
+      "desc": "What was your child's favorite part of the drawing activity?",
+      "img": "/activity/high-school-concept-illustration.png"
+    }
+  ]
+}

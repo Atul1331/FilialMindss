@@ -1,0 +1,29 @@
+{
+  "title": "What's on the tray?",
+  "desc": "Place 10 items on a tray and give your kids only 1 minute to observe. After removing the tray, ask them to write down as many items as they can remember.",
+  "content": [
+    {
+      "type": "textbox",
+      "id": "Question 1",
+      "desc": "How did your child approach remembering the items on the tray?",
+      "img": "/activity/high-school-concept-illustration.png"
+    },
+    {
+      "type": "mcq",
+      "id": "Question 2",
+      "desc": "Did your child miss writing a few or many items from the tray?",
+      "opt": [
+        { "no": "A", "opt": "Yes" },
+        { "no": "B", "opt": "No" },
+        { "no": "C", "opt": "Sometimes" }
+      ],
+      "img": "/activity/high-school-concept-illustration.png"
+    },
+    {
+      "type": "textbox",
+      "id": "Question 3",
+      "desc": "How did your child feel about the 'What's on the Tray?' Memory Challenge?",
+      "img": "/activity/high-school-concept-illustration.png"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "title": "Chess Mania",
+  "desc": "Engage in the game of chess.",
+  "content": [
+    {
+      "type": "mcq",
+      "id": "Question 1",
+      "desc": "How familiar is your child with the rules of chess?",
+      "opt": [
+        { "no": "A", "opt": "Familiar" },
+        { "no": "B", "opt": "Not Familiar" },
+        { "no": "C", "opt": "Somewhat Familiar" }
+      ],
+      "img": "/activity/high-school-concept-illustration.png"
+    },
+    {
+      "type": "mcq",
+      "id": "Question 2",
+      "desc": "Did your child enjoy playing chess?",
+      "opt": [
+        { "no": "A", "opt": "Yes" },
+        { "no": "B", "opt": "No" },
+        { "no": "C", "opt": "Somewhat" }
+      ],
+      "img": "/activity/high-school-concept-illustration.png"
+    },
+    {
+      "type": "textbox",
+      "id": "Question 3",
+      "desc": "What strategies did your child use during the game?",
+      "img": "/activity/high-school-concept-illustration.png"
+    },
+    {
+      "type": "textbox",
+      "id": "Question 4",
+      "desc": "Did your child express any challenges or victories they faced during the chess game?",
+      "img": "/activity/high-school-concept-illustration.png"
+    }
+  ]
+}

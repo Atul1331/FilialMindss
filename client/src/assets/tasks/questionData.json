@@ -1,0 +1,309 @@
+{
+  "Alien World": {
+    "title": "Alien World",
+    "desc": "Engage in a drawing activity! For example, draw an alien world. Unleash your creativity and showcase your artistic skills.",
+    "content": [
+      {
+        "type": "img",
+        "id": "Question 1",
+        "desc": "Upload your drawing of the alien world",
+        "img": "/activity/high-school-concept-illustration.png"
+      },
+      {
+        "type": "mcq",
+        "id": "Question 2",
+        "desc": "Did your child express enjoyment or challenges while drawing the alien world?",
+        "opt": [
+          { "no": "A", "opt": "Yes" },
+          { "no": "B", "opt": "No" },
+          { "no": "C", "opt": "Somewhat" }
+        ],
+        "img": "/activity/high-school-concept-illustration.png"
+      },
+      {
+        "type": "textbox",
+        "id": "Question 3",
+        "desc": "What was your child's favorite part of the drawing activity?",
+        "img": "/activity/high-school-concept-illustration.png"
+      }
+    ]
+  },
+  "Chess Mania": {
+    "title": "Chess Mania",
+    "desc": "Engage in the game of chess.",
+    "content": [
+      {
+        "type": "mcq",
+        "id": "Question 1",
+        "desc": "How familiar is your child with the rules of chess?",
+        "opt": [
+          { "no": "A", "opt": "Familiar" },
+          { "no": "B", "opt": "Not Familiar" },
+          { "no": "C", "opt": "Somewhat Familiar" }
+        ],
+        "img": "/activity/high-school-concept-illustration.png"
+      },
+      {
+        "type": "mcq",
+        "id": "Question 2",
+        "desc": "Did your child enjoy playing chess?",
+        "opt": [
+          { "no": "A", "opt": "Yes" },
+          { "no": "B", "opt": "No" },
+          { "no": "C", "opt": "Somewhat" }
+        ],
+        "img": "/activity/high-school-concept-illustration.png"
+      },
+      {
+        "type": "textbox",
+        "id": "Question 3",
+        "desc": "What strategies did your child use during the game?",
+        "img": "/activity/high-school-concept-illustration.png"
+      },
+      {
+        "type": "textbox",
+        "id": "Question 4",
+        "desc": "Did your child express any challenges or victories they faced during the chess game?",
+        "img": "/activity/high-school-concept-illustration.png"
+      }
+    ]
+  },
+  "Color Sort": {
+    "title": "Color Sort",
+    "desc": "Present a set of colored objects to your child and encourage them to sort them by color. Once the sorting is complete, snap a photo of the sorted objects and upload it here.",
+    "content": [
+      {
+        "type": "img",
+        "id": "Question 1",
+        "desc": "Upload a photo of the sorted objects by color",
+        "img": "/activity/high-school-concept-illustration.png"
+      },
+      {
+        "type": "time",
+        "id": "Question 2",
+        "desc": "How much time did your child take to complete the color sorting activity?",
+        "img": "/activity/high-school-concept-illustration.png"
+      },
+      {
+        "type": "textbox",
+        "id": "Question 3",
+        "desc": "Did your child enjoy the process of sorting the colored objects?",
+        "img": "/activity/high-school-concept-illustration.png"
+      },
+      {
+        "type": "mcq",
+        "id": "Question 4",
+        "desc": "Did your child show any signs of irritation during or after the activity?",
+        "opt": [
+          { "no": "A", "opt": "Yes" },
+          { "no": "B", "opt": "No" },
+          { "no": "C", "opt": "Sometimes" }
+        ],
+        "img": "/activity/high-school-concept-illustration.png"
+      }
+    ]
+  },
+  "Craft a Geo": {
+    "title": "Craft a Geo",
+    "desc": "Hand over some playdough to your child and challenge them to craft various geometric shapes. Encourage combining shapes to create more complex structures or objects.",
+    "content": [
+      {
+        "type": "img",
+        "id": "Question 1",
+        "desc": "Upload an image of your child's playdough creations",
+        "img": "/activity/high-school-concept-illustration.png"
+      },
+      {
+        "type": "textbox",
+        "id": "Question 2",
+        "desc": "How did your child approach crafting various geometric shapes with playdough?",
+        "img": "/activity/high-school-concept-illustration.png"
+      },
+      {
+        "type": "mcq",
+        "id": "Question 3",
+        "desc": "Did your child combine shapes to create more complex structures or objects?",
+        "opt": [
+          { "no": "A", "opt": "Yes" },
+          { "no": "B", "opt": "No" },
+          { "no": "C", "opt": "Sometimes" }
+        ],
+        "img": "/activity/high-school-concept-illustration.png"
+      },
+      {
+        "type": "rate",
+        "id": "Question 4",
+        "desc": "Rate your experience",
+        "img": "/activity/high-school-concept-illustration.png"
+      },
+      {
+        "type": "mcq",
+        "id": "Question 5",
+        "desc": "Did your child express any challenges or joys while working with playdough?",
+        "opt": [
+          { "no": "A", "opt": "Yes" },
+          { "no": "B", "opt": "No" },
+          { "no": "C", "opt": "Sometimes" }
+        ],
+        "img": "/activity/high-school-concept-illustration.png"
+      }
+    ]
+  },
+  "Guess the Object": {
+    "title": "Guess the Object",
+    "desc": "Select household items that make distinct sounds, such as a clock, cereal box, metal lid (placed on a pan), and a potato chip bag. Put a blindfold on your child and have them try to guess which object made the sound.",
+    "content": [
+      {
+        "type": "textbox",
+        "id": "Question 1",
+        "desc": "Describe your child's reaction to the 'Mystery Sound' activity.",
+        "img": "/activity/high-school-concept-illustration.png"
+      },
+      {
+        "type": "mcq",
+        "id": "Question 2",
+        "desc": "How well did your child guess the objects based on their sounds?",
+        "opt": [
+          { "no": "A", "opt": "Really Good" },
+          { "no": "B", "opt": "Not Good Enough" },
+          { "no": "C", "opt": "Somewhat Good" }
+        ],
+        "img": "/activity/high-school-concept-illustration.png"
+      },
+      {
+        "type": "mcq",
+        "id": "Question 3",
+        "desc": "Did your child express enjoyment or challenges while playing the 'Mystery Sound' game?",
+        "opt": [
+          { "no": "A", "opt": "Yes" },
+          { "no": "B", "opt": "No" },
+          { "no": "C", "opt": "Sometimes" }
+        ],
+        "img": "/activity/high-school-concept-illustration.png"
+      },
+      {
+        "type": "mcq",
+        "id": "Question 4",
+        "desc": "Were there any specific sounds or objects that particularly intrigued your child?",
+        "opt": [
+          { "no": "A", "opt": "Yes" },
+          { "no": "B", "opt": "No" },
+          { "no": "C", "opt": "Sometimes" }
+        ],
+        "img": "/activity/high-school-concept-illustration.png"
+      }
+    ]
+  },
+  "Labeling the Cups": {
+    "title": "Labeling the Cups",
+    "desc": "Task your child with labeling each cup with the corresponding written number. After completion, take note of how many they answered correctly.",
+    "content": [
+      {
+        "type": "number",
+        "id": "Question 1",
+        "desc": "How many cups did your child correctly label with the corresponding written number?",
+        "img": "/activity/high-school-concept-illustration.png"
+      },
+      {
+        "type": "textbox",
+        "id": "Question 2",
+        "desc": "What approach did your child use to label the cups with the correct numbers?",
+        "img": "/activity/high-school-concept-illustration.png"
+      },
+      {
+        "type": "mcq",
+        "id": "Question 3",
+        "desc": "Did your child enjoy the process of labeling the cups?",
+        "opt": [
+          { "no": "A", "opt": "Yes" },
+          { "no": "B", "opt": "No" },
+          { "no": "C", "opt": "Somewhat" }
+        ],
+        "img": "/activity/high-school-concept-illustration.png"
+      },
+      {
+        "type": "textbox",
+        "id": "Question 4",
+        "desc": "Were there any challenges or joys your child expressed during this activity?",
+        "img": "/activity/high-school-concept-illustration.png"
+      }
+    ]
+  },
+  "What's on the tray?": {
+    "title": "What's on the tray?",
+    "desc": "Place 10 items on a tray and give your kids only 1 minute to observe. After removing the tray, ask them to write down as many items as they can remember.",
+    "content": [
+      {
+        "type": "textbox",
+        "id": "Question 1",
+        "desc": "How did your child approach remembering the items on the tray?",
+        "img": "/activity/high-school-concept-illustration.png"
+      },
+      {
+        "type": "mcq",
+        "id": "Question 2",
+        "desc": "Did your child miss writing a few or many items from the tray?",
+        "opt": [
+          { "no": "A", "opt": "Yes" },
+          { "no": "B", "opt": "No" },
+          { "no": "C", "opt": "Sometimes" }
+        ],
+        "img": "/activity/high-school-concept-illustration.png"
+      },
+      {
+        "type": "textbox",
+        "id": "Question 3",
+        "desc": "How did your child feel about the 'What's on the Tray?' Memory Challenge?",
+        "img": "/activity/high-school-concept-illustration.png"
+      }
+    ]
+  },
+  "Narrate a Fairy Tale": {
+    "title": "Narrate a Fairy Tale",
+    "desc": "Get creative and narrate your favorite fairy tale with a twist! Create a new storyline or reimagine the ending. Express your imagination and storytelling skills. Once done, upload the audio file of your narrated fairy tale with a twist.",
+    "content": [
+      {
+        "type": "audio",
+        "id": "Question 1",
+        "desc": "Narrate a fairy tale with a twist",
+        "img": "/activity/high-school-concept-illustration.png"
+      },
+      {
+        "type": "textbox",
+        "id": "Question 2",
+        "desc": "How did your child come up with the new storyline or ending?",
+        "img": "/activity/high-school-concept-illustration.png"
+      },
+      {
+        "type": "textbox",
+        "id": "Question 3",
+        "desc": "Did your child enjoy the process of adding a twist to the fairy tale?",
+        "img": "/activity/high-school-concept-illustration.png"
+      }
+    ]
+  },
+  "Create a Nature Collage": {
+    "title": "Create a Nature Collage",
+    "desc": "Gather leaves, pebbles, and small sticks from the outdoors. Glue them onto a piece of cardboard or stiff paper. (You can repurpose cereal and cracker boxes for this purpose.",
+    "content": [
+      {
+        "type": "img",
+        "id": "Question 1",
+        "desc": "Upload a photo of your nature collage",
+        "img": "/activity/high-school-concept-illustration.png"
+      },
+      {
+        "type": "time",
+        "id": "Question 2",
+        "desc": "How much time did your child take to do this?",
+        "img": "/activity/high-school-concept-illustration.png"
+      },
+      {
+        "type": "rate",
+        "id": "Question 3",
+        "desc": "Rate your experience",
+        "img": "/activity/high-school-concept-illustration.png"
+      }
+    ]
+  }
+}
