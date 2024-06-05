@@ -106,7 +106,7 @@ const Activity = ({ title }) => {
 
   return (
     <>
-      <div className="mt-16 flex bg-gray-100">
+      <div className="mt-16 pb-10 flex bg-gray-100">
         <div className="flex w-full flex-col">
           <ActivityLink title={title} />
           <div className="flex">
