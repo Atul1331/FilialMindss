@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaBookDead, FaGamepad } from 'react-icons/fa'
 import { MdTableChart } from 'react-icons/md'
+import {Link} from 'react-router-dom';
 
 import Child from '../../assets/child.png'
 import dailytask1 from '../../assets/dailytask1.jpg'
@@ -23,7 +24,7 @@ const ChildLeft = () => {
 
         <div className="pr-20">
           <p className="w-[440px] text-5xl uppercase">
-            This is your day 1 of something{' '}
+            This is your day 7 here{' '}
           </p>
           <p className="my-5 text-2xl underline">Go and explore </p>
         </div>
@@ -68,7 +69,8 @@ const ChildLeft = () => {
       <div className="mb-5 mt-10 text-2xl font-semibold">Explore More</div>
       <div>
         <div className="mb-8 flex gap-20">
-          <div className="relative w-[25%] overflow-hidden rounded-3xl bg-[#d4c3f2] p-5">
+          <Link to='/activity' className='w-[25%]'>
+          <div className="relative w-full overflow-hidden rounded-3xl bg-[#d4c3f2] p-5">
             <div className="mb-6 w-[50px] rounded-full bg-[#e9e3f2] p-3 text-center">
               <MdTableChart className="text-2xl " />
             </div>
@@ -85,9 +87,10 @@ const ChildLeft = () => {
               className="absolute  -right-16 -top-[50px] w-40"
               src={spiral}
             />
-          </div>
-
-          <div className="w-[25%]">
+          </div></Link>
+          
+          <Link to='/activity' className='w-[25%]'>
+          <div className="w-full">
             <div className="relative overflow-hidden rounded-3xl bg-[#664dd4] p-5">
               <div className="mb-6 w-[50px] rounded-full bg-[#c2b8ec] p-3 text-center">
                 <FaGamepad className="text-2xl " />
@@ -107,8 +110,11 @@ const ChildLeft = () => {
               />
             </div>
           </div>
+          </Link>
 
-          <div className="w-[25%]">
+
+          <Link to='/stories' className='w-[25%]'>
+          <div className="w-full">
             <div className="relative  overflow-hidden rounded-3xl bg-[#f6d26f] p-5">
               <div className="mb-6 w-[50px] rounded-full bg-[#e9ddbd] p-3 text-center">
                 <FaBookDead className="text-2xl " />
@@ -132,6 +138,8 @@ const ChildLeft = () => {
               />
             </div>
           </div>
+          </Link>
+          
         </div>
       </div>
     </div>

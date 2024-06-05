@@ -48,11 +48,11 @@ function ParentChildRelationship() {
   }
 
   return (
-    <div className="mx-auto rounded-2xl bg-white pb-2 shadow-xl md:w-2/3">
+    <div className="mx-auto rounded-2xl bg-white pb-2 shadow-xl w-[80%]">
       <div className="horizontal container mt-5">
         <Stepper currentStep={currentStep} steps={steps} />
 
-        <div className="my-10 p-10">
+        <div className="my-8 p-10">
           <StepperContext.Provider
             value={{
               userData,
