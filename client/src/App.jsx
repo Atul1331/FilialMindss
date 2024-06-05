@@ -15,6 +15,8 @@ import Homepage from './pages/homepage'
 import Login from './pages/login'
 import ParentDashboard from './pages/parent-dashboard'
 import Register from './pages/register'
+import ChildDashboard from './pages/ChildDashboard'
+import ParentChild from './pages/ParentChild'
 
 import { Toaster } from 'react-hot-toast'
 
@@ -46,6 +48,8 @@ function App() {
         {/* <Route element={<ChildSkill />} path="/child-skill" /> */}
         {/* <Route element={<ParentChild />} path="/parent-child" /> */}
         <Route element={<ParentDashboard />} path="/parent-dashboard" />
+        <Route element={<ChildDashboard />} path="/child-dashboard" />
+        <Route element={<ParentChild />} path="/parent-child-score" />
         <Route element={<Games />} path="/games" />
         {gamesActive.active.map((e) => (
           <Route
