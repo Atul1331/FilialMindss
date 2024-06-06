@@ -1,0 +1,114 @@
+{
+  "ques": [
+    {
+      "id": 0,
+      "question": "I share an affectionate, warm relationship with my child.",
+      "type": "closeness"
+    },
+    {
+      "id": 1,
+      "question": "My child and I always seem to be struggling with each other.",
+      "type": "conflicts"
+    },
+    {
+      "id": 2,
+      "question": "If upset, my child will seek comfort from me.",
+      "type": "closeness"
+    },
+    {
+      "id": 3,
+      "question": "My child values his/her relationship with me.",
+      "type": "closeness"
+    },
+    {
+      "id": 4,
+      "question": "When I praise my child, he/she beams with pride.",
+      "type": "closeness"
+    },
+    {
+      "id": 5,
+      "question": "My child easily becomes angry at me.",
+      "type": "conflicts"
+    },
+    {
+      "id": 6,
+      "question": "My child tries to please me.",
+      "type": "closeness"
+    },
+    {
+      "id": 7,
+      "question": "My child feels that I treat him/her unfairly.",
+      "type": "conflicts"
+    },
+    {
+      "id": 8,
+      "question": "It is easy to be in tune with what my child is feeling.",
+      "type": "closeness"
+    },
+    {
+      "id": 9,
+      "question": "My child sees me as a source of punishment and criticism.",
+      "type": "conflicts"
+    },
+    {
+      "id": 10,
+      "question": "My child expresses hurt or jealousy when I spend time with other children.",
+      "type": "conflicts"
+    },
+    {
+      "id": 11,
+      "question": "My child remains angry or is resistant after being disciplined.",
+      "type": "conflicts"
+    },
+    {
+      "id": 12,
+      "question": "Dealing with my child drains my energy.",
+      "type": "conflicts"
+    },
+    {
+      "id": 13,
+      "question": "I've noticed my child copying my behavior or ways of doing things.",
+      "type": "closeness"
+    },
+    {
+      "id": 14,
+      "question": "When my child is in a bad mood, I know we're in for a long and difficult day.",
+      "type": "conflicts"
+    },
+    {
+      "id": 15,
+      "question": "My child's feelings toward me can be unpredictable or can change suddenly.",
+      "type": "conflicts"
+    },
+    {
+      "id": 16,
+      "question": "Despite my best efforts, I'm uncomfortable with how my child and I get along.",
+      "type": "conflicts"
+    },
+    {
+      "id": 17,
+      "question": "My child whines or cries when he/she wants something from me.",
+      "type": "conflicts"
+    },
+    {
+      "id": 18,
+      "question": "My child is sneaky or manipulative with me.",
+      "type": "conflicts"
+    },
+    {
+      "id": 19,
+      "question": "My child openly shares his/her feelings and experiences with me.",
+      "type": "conflicts"
+    },
+    {
+      "id": 20,
+      "question": "My interactions with my child make me feel effective and confident as a parent.",
+      "type": "closeness"
+    },
+    {
+      "id": 21,
+      "question": "My child spontaneously shares information about himself/herself.",
+      "type": "closeness"
+    }
+  ]
+}

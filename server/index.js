@@ -2,6 +2,7 @@ import cookieParser from 'cookie-parser'
 import dotenv from 'dotenv'
 import express from 'express'
 import authRoutes from './routes/authRoutes.js'
+import parentChildRoutes from './routes/parentChildRoutes.js'
 // import messageRoutes from "./routes/messageRoutes.js";
 // import userRoutes from "./routes/userRoutes.js";
 import connectToMongoDB from './db/connectMongoDB.js'
@@ -33,6 +34,7 @@ app.all('/', (req, res, next) => {
   res.send('Express on Vercel 🚀')
 })
 app.use('/api/auth', authRoutes)
+app.use('/api/parentChild', parentChildRoutes)
 
 // Handle unknown routes
 app.get('*', (req, res) => {
