@@ -9,14 +9,14 @@ import Navbar from './components/common/navbar'
 import { useAuthContext } from './context/auth-context'
 import Activity from './pages/activity/activity'
 import ActivityHome from './pages/activity/activity-home'
+import ChildDashboard from './pages/ChildDashboard'
 import Games from './pages/Games'
 import GamesSec from './pages/gamesSec'
 import Homepage from './pages/homepage'
 import Login from './pages/login'
 import ParentDashboard from './pages/parent-dashboard'
-import Register from './pages/register'
-import ChildDashboard from './pages/ChildDashboard'
 import ParentChild from './pages/ParentChild'
+import Register from './pages/register'
 import Story from './pages/stories'
 
 import { Toaster } from 'react-hot-toast'
@@ -48,23 +48,45 @@ function App() {
         {/* <Route element={<ChildInfo />} path="/child-info" /> */}
         {/* <Route element={<ChildSkill />} path="/child-skill" /> */}
         {/* <Route element={<ParentChild />} path="/parent-child" /> */}
-        <Route element={<ParentDashboard />} path="/parent-dashboard" />
-        <Route element={<Story />} path="/stories" />
-        <Route element={<ChildDashboard />} path="/child-dashboard" />
-        <Route element={<ParentChild />} path="/parent-child-score" />
-        <Route element={<Games />} path="/games" />
+        <Route
+          element={authUser ? <ParentDashboard /> : <Navigate to="/login" />}
+          path="/parent-dashboard"
+        />
+        <Route
+          element={authUser ? <Story /> : <Navigate to="/login" />}
+          path="/stories"
+        />
+        <Route
+          element={authUser ? <ChildDashboard /> : <Navigate to="/login" />}
+          path="/child-dashboard"
+        />
+        <Route
+          element={authUser ? <ParentChild /> : <Navigate to="/login" />}
+          path="/parent-child-test"
+        />
+        <Route
+          element={authUser ? <Games /> : <Navigate to="/login" />}
+          path="/games"
+        />
         {gamesActive.active.map((e) => (
           <Route
             key={e.title}
-            element={<GamesSec cdn={e.cdn} />}
+            element={
+              authUser ? <GamesSec cdn={e.cdn} /> : <Navigate to="/login" />
+            }
             path={e.link}
           />
         ))}
-        <Route element={<ActivityHome />} path="/activity" />
+        <Route
+          element={authUser ? <ActivityHome /> : <Navigate to="/login" />}
+          path="/activity"
+        />
         {activityTitle.active.map((e) => (
           <Route
             key={e.title}
-            element={<Activity title={e.title} />}
+            element={
+              authUser ? <Activity title={e.title} /> : <Navigate to="/login" />
+            }
             path={e.link}
           />
         ))}

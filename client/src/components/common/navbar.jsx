@@ -64,6 +64,20 @@ const Navbar = () => {
               </Typography>
             </Box>
           </Link>
+          <Link to="/parent-child-test">
+            <Box
+              sx={{
+                padding: '4px 8px',
+                border: '1px solid #555',
+                borderRadius: '15px',
+                color: '#555'
+              }}
+            >
+              <Typography sx={{ fontSize: '12px !important' }} variant="body1">
+                Parent-Child Test
+              </Typography>
+            </Box>
+          </Link>
         </Stack>
         {authUser ? (
           <Stack alignItems="center" direction="row" gap={3}>

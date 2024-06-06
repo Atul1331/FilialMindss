@@ -3,7 +3,6 @@ import Score from '../models/scoreModel.js'
 export const scoreGet = async (req, res) => {
   try {
     const scores = await Score.find();
-    console.log(scores)
     res.status(200).json(scores);
   } catch (error) {
     console.error("Error in scoreGet controller: ", error.message);
